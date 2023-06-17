@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    font-family: Roboto Condensed;
+    background-color: rgb(3, 3, 99);
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 1,5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.banner {
+    background-image: url(https://acnews.blob.core.windows.net/imgnews/extralarge/NAZ_6de6a8bdbba94b3f85819c4807efdcc0.webp);
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 350px;
+    border: 8px groove #1C6EA4;
+}
+
+h1{
+    font-size: 30px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    background: #333333;   
+}
+
+#monto{
+    height: 1rem;
+    width: 15rem;
+}
+
+#monto:hover{
+    background-color: black;
+    color: white;
+    }
+
+#Coloruser{
+    height: 1rem;
+    width: 15rem;
+}
+
+#Coloruser:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#price{
+    padding: 1rem;
+}
+
+
+section{
+    display: flex;
+    padding: 1.5rem;   
+}
+
+#Preciototal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 0.3rem;
+}
+
+.circle{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px;
+    border-radius: 90%;
+    border-color: white;
+}
+
+
+
+
